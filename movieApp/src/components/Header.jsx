@@ -2,7 +2,7 @@ import {Link, NavLink, useNavigate} from "react-router-dom"
 export const Header = () => {
 
   return (
-    <nav className="navbar navbar-expand-md flex-top bg-primary navbar-dark">
+    <nav className="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
       <div className="container-fluid">
 
         <NavLink to="/" className="navbar-brand">
