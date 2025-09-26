@@ -12,7 +12,7 @@ export const Card = ({ movie }) => {
           <h5 className='card-title text-primary text-overflow-1'>{title}</h5>
           <p className='card-text text-overflow-2'>{overview}</p>
           <div className='d-flex justify-content-between align-item-center'>
-            <Link to="" className="btn btn-sm btn-outline-primary stretched-link">
+            <Link to={`/movie/${id}`} className="btn btn-sm btn-outline-primary stretched-link">
               Read more</Link>
             <small>
               <i className='bi bi-star-fill text-warning'></i>
